@@ -1,0 +1,122 @@
+html,body {
+    font-family: "Inter", Arial;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation img{
+    width: 48px;
+    height: 48px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #5B20C7;
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px 24px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    position: relative;
+}
+
+.teks{
+    max-width: 500px;
+    position: relative;
+}
+
+.kontol{
+    color: darkorchid;
+}
+
+button{
+    background-color: #5B20C7;
+    color:rgb(161, 112, 206);
+    padding: 14px 28px;
+    border: none;
+    border-radius: 15px;
+
+    cursor: pointer;
+    transition: transform 0,5 ease;
+    
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: cadetblue;
+    background-color: darkgreen;
+}
+
+.gambar {
+  position: relative; 
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pattern {
+  position: absolute;
+  bottom: -40px;  
+  right: 0;
+  width: 50%;
+  z-index: 1; 
+}
+
+.img {
+  position: relative;
+  z-index: 2; 
+  max-width: 100%;
+  height: auto;
+}
+.pattern-mburi {
+  position: absolute;
+  top: 60px;   
+  left: -60px; 
+  width: 50%; 
+  z-index: 1; 
+  bottom: -40px;  
+}
+.teks h1,
+.teks p,
+.teks button {
+  position: relative;
+  z-index: 2;
+}
+
+.teks h1{
+    font-size: 59px;
+}
+
+
+
+
+
+
